@@ -12,12 +12,14 @@ public class ProgramDependenceGraph {
     }
 
     public Collection<Node> backwardSlice(Node n) {
+        return null;
     }
 
     public double computeOverlap() {
-    }
+    return Double.parseDouble(null);}
 
     public Graph computeResult() {
+        return null;
     }
 
     public void setControlFlowGraph(Graph controlFlowGraph) {
