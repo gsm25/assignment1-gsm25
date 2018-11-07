@@ -41,7 +41,8 @@ public class ControlDependenceTreeTestAreaEquals {
         ControlDependenceTree cdt = new ControlDependenceTree(cn,target);
         Graph submission = cdt.computeResult();
 
-        dependenceAnalysis.analysis.assignment1.solution.ControlDependenceTree cdtSol = new dependenceAnalysis.analysis.assignment1.solution.ControlDependenceTree(cn,target);
+        dependenceAnalysis.analysis.assignment1.solution.ControlDependenceTree cdtSol;
+        cdtSol = new dependenceAnalysis.analysis.assignment1.solution.ControlDependenceTree(cn,target);
         cdtSol.setControlFlowGraph(cdt.getControlFlowGraph());
         Graph solution = cdtSol.computeResult();
         double tp = 0D;

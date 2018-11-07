@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CodeAnalysisToolkit.iml" filepath="$PROJECT_DIR$/CodeAnalysisToolkit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CodeAnalysisToolkit.iml" filepath="$PROJECT_DIR$/CodeAnalysisToolkit.iml" />
     </modules>
   </component>
 </project>

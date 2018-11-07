@@ -36,7 +36,8 @@ public class ProgramDependenceGraph extends Analysis {
      */
     public Graph computeResult() {
        //Complete this
-    } 
+        return null;
+    }
     
     /**
      * Compute the set of nodes that belong to a backward slice, computed from a given
@@ -47,6 +48,7 @@ public class ProgramDependenceGraph extends Analysis {
      */
     public Set<Node> backwardSlice(Node node){
          //Complete this
+        return null;
     }
     
     /**
@@ -56,6 +58,7 @@ public class ProgramDependenceGraph extends Analysis {
      */
     public double computeTightness(){
          //Complete this
+        return 0;
     }
 
 
