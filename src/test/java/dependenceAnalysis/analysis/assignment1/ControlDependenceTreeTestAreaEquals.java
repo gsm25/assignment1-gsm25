@@ -86,23 +86,20 @@ public class ControlDependenceTreeTestAreaEquals {
         writeToFile(solution,"AreaSolutionCDT.dot");
     }
 
-    private void writeToFile(Graph submission, String name) {
+    private void writeToFile(Graph submission, String name) throws IOException {
         BufferedWriter writer = null;
         try
         {
             writer = new BufferedWriter( new FileWriter(name));
             writer.write( submission.toString());
 
-        }
-        catch ( IOException e)
-        {
-        }
-        finally
+        } finally
         {
             try
             {
-                if ( writer != null)
+                if ( writer != null) {
                     writer.close( );
+                }
             }
             catch ( IOException e)
             {

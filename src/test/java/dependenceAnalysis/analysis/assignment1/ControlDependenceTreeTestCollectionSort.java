@@ -40,7 +40,7 @@ public class ControlDependenceTreeTestCollectionSort {
         ControlDependenceTree cdt = new ControlDependenceTree(cn,target);
         Graph submission = cdt.computeResult();
 
-        dependenceAnalysis.analysis.assignment1.solution.ControlDependenceTree cdtSol = new dependenceAnalysis.analysis.assignment1.solution.ControlDependenceTree(cn, target) {
+        dependenceAnalysis.analysis.assignment1.solution.ControlDependenceTree cdtSol = new dependenceAnalysis.analysis.assignment1.solution.ControlDependenceTree(cn,target) {
             public void setControlFlowGraph(Graph controlFlowGraph) {
 
             }
